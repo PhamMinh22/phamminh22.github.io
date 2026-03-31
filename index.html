@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Cá Nhân</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Noise overlay -->
+  <div class="noise"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span class="logo-dot"></span>
+        <span class="logo-text">Nguyễn Văn A</span>
+      </a>
+      <nav>
+        <a href="index.html" class="nav-link active">Bài viết</a>
+        <a href="about.html" class="nav-link">Về tôi</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-tag">Blog cá nhân</div>
+      <h1 class="hero-title">Những suy nghĩ,<br><em>được viết ra</em></h1>
+      <p class="hero-desc">Nơi tôi ghi lại những điều học được, trải nghiệm và quan sát về cuộc sống & công nghệ.</p>
+    </div>
+    <div class="hero-line"></div>
+  </section>
+
+  <!-- Posts grid -->
+  <main class="container">
+    <div class="section-label">— Bài viết gần đây</div>
+
+    <div class="posts-grid" id="posts-grid">
+
+      <!-- Post 1 - Featured -->
+      <article class="post-card featured" onclick="location.href='posts/bai-viet-1.html'">
+        <div class="post-meta">
+          <span class="post-tag">Cuộc sống</span>
+          <span class="post-date">28 tháng 3, 2026</span>
+        </div>
+        <h2 class="post-title">Tại sao tôi bắt đầu viết blog sau nhiều năm trì hoãn</h2>
+        <p class="post-excerpt">Đã bao nhiêu lần tôi mở tab mới, gõ vài dòng rồi xóa đi. Hôm nay tôi quyết định không xóa nữa...</p>
+        <div class="post-footer">
+          <span class="read-more">Đọc tiếp →</span>
+          <span class="read-time">5 phút đọc</span>
+        </div>
+      </article>
+
+      <!-- Post 2 -->
+      <article class="post-card" onclick="location.href='posts/bai-viet-2.html'">
+        <div class="post-meta">
+          <span class="post-tag">Công nghệ</span>
+          <span class="post-date">20 tháng 3, 2026</span>
+        </div>
+        <h2 class="post-title">Những công cụ tôi dùng hàng ngày</h2>
+        <p class="post-excerpt">Từ note-taking đến quản lý task, đây là bộ công cụ giúp tôi làm việc hiệu quả hơn...</p>
+        <div class="post-footer">
+          <span class="read-more">Đọc tiếp →</span>
+          <span class="read-time">3 phút đọc</span>
+        </div>
+      </article>
+
+      <!-- Post 3 -->
+      <article class="post-card" onclick="location.href='posts/bai-viet-3.html'">
+        <div class="post-meta">
+          <span class="post-tag">Sách</span>
+          <span class="post-date">12 tháng 3, 2026</span>
+        </div>
+        <h2 class="post-title">3 cuốn sách thay đổi cách tôi nhìn thế giới</h2>
+        <p class="post-excerpt">Không phải sách self-help thông thường, đây là những cuốn khiến tôi phải đặt xuống và suy nghĩ...</p>
+        <div class="post-footer">
+          <span class="read-more">Đọc tiếp →</span>
+          <span class="read-time">4 phút đọc</span>
+        </div>
+      </article>
+
+      <!-- Post 4 -->
+      <article class="post-card" onclick="location.href='posts/bai-viet-4.html'">
+        <div class="post-meta">
+          <span class="post-tag">Suy ngẫm</span>
+          <span class="post-date">5 tháng 3, 2026</span>
+        </div>
+        <h2 class="post-title">Học cách nói không mà không cảm thấy tệ</h2>
+        <p class="post-excerpt">Một kỹ năng đơn giản nhưng mất nhiều năm để thực sự làm được — và tại sao nó quan trọng...</p>
+        <div class="post-footer">
+          <span class="read-more">Đọc tiếp →</span>
+          <span class="read-time">6 phút đọc</span>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Nguyễn Văn A · Viết bằng ❤️ tại Hà Nội</p>
+      <div class="footer-links">
+        <a href="mailto:hello@example.com">Email</a>
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://twitter.com/" target="_blank">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
